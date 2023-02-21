@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="DELETE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="test">ec6370f52f812d103a4154492799b697</category>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>execute_zowe</internal_name>
+        <label_cache/>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Execute Zowe</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-16 19:22:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a873b0f52f812d103a4154492799b622</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Execute Zowe</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_a873b0f52f812d103a4154492799b622</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-16 19:22:18</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="DELETE" query="documentkey=a873b0f52f812d103a4154492799b622"/>
+    <sys_variable_value action="DELETE" query="document_key=a873b0f52f812d103a4154492799b622"/>
+    <sys_hub_step_instance action="DELETE" query="action=a873b0f52f812d103a4154492799b622"/>
+    <sys_hub_action_input action="DELETE" query="model=a873b0f52f812d103a4154492799b622"/>
+    <sys_hub_action_output action="DELETE" query="model=a873b0f52f812d103a4154492799b622"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=a873b0f52f812d103a4154492799b622"/>
+    <sys_hub_action_status_metadata action="DELETE" query="action_type_id=a873b0f52f812d103a4154492799b622"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_action_input_a873b0f52f812d103a4154492799b622"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_action_input_a873b0f52f812d103a4154492799b622"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_action_output_a873b0f52f812d103a4154492799b622"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_action_output_a873b0f52f812d103a4154492799b622"/>
+    <sys_hub_action_plan action="DELETE" query="action_id=a873b0f52f812d103a4154492799b622"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>44b1111fdbf477409df22f17d49619a8</instance_id>
+        <instance_name>dev81984</instance_name>
+        <name>sys_hub_action_type_definition_a873b0f52f812d103a4154492799b622</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition"><sys_hub_action_type_definition action="INSERT_OR_UPDATE"><access>public</access><acls/><action_status/><action_template/><active>true</active><annotation/><callable_by_client_api>false</callable_by_client_api><category display_value="test">ec6370f52f812d103a4154492799b697</category><compiler_build/><copied_from/><copied_from_name/><description/><ih_action>false</ih_action><internal_name>execute_zowe</internal_name><label_cache/><latest_snapshot/><master_snapshot/><name>Execute Zowe</name><natlang/><outputs/><pre_compiled>false</pre_compiled><state>draft</state><sys_class_name>sys_hub_action_type_definition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-02-16 19:22:18</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a873b0f52f812d103a4154492799b622</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Execute Zowe</sys_name><sys_overrides/><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_hub_action_type_definition_a873b0f52f812d103a4154492799b622</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-16 19:22:18</sys_updated_on><system_level>false</system_level><type/></sys_hub_action_type_definition><sys_translated_text action="delete_multiple" query="documentkey=a873b0f52f812d103a4154492799b622"/><sys_variable_value action="delete_multiple" query="document_key=a873b0f52f812d103a4154492799b622"/><sys_hub_step_instance action="delete_multiple" query="action=a873b0f52f812d103a4154492799b622"/><sys_hub_action_input action="delete_multiple" query="model=a873b0f52f812d103a4154492799b622"/><sys_hub_action_output action="delete_multiple" query="model=a873b0f52f812d103a4154492799b622"/><sys_hub_pill_compound action="delete_multiple" query="attached_to=a873b0f52f812d103a4154492799b622"/><sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=a873b0f52f812d103a4154492799b622"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_a873b0f52f812d103a4154492799b622"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_a873b0f52f812d103a4154492799b622"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_a873b0f52f812d103a4154492799b622"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_a873b0f52f812d103a4154492799b622"/><sys_hub_action_plan action="delete_multiple" query="action_id=a873b0f52f812d103a4154492799b622"/></record_update>]]></payload>
+        <payload_hash>-1051251637</payload_hash>
+        <record_name>Execute Zowe</record_name>
+        <reverted_from/>
+        <source>3a28bba12f8de9103a4154492799b629</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-16 19:22:19</sys_created_on>
+        <sys_id>2073b0f52f812d103a4154492799b627</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1865bad726e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-16 19:22:19</sys_updated_on>
+        <type>Action Type</type>
+        <update_guid>6873b0f5bd812d1021117395ddb76926</update_guid>
+        <update_guid_history>6873b0f5bd812d1021117395ddb76926:-1051251637</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-21 18:54:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_action_type_definition">sys_hub_action_type_definition</sys_db_object>
+        <sys_id>de8ec32f14f743cea45f69fb03381191</sys_id>
+        <sys_metadata>a873b0f52f812d103a4154492799b622</sys_metadata>
+        <sys_name>Execute Zowe</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_hub_action_type_definition_a873b0f52f812d103a4154492799b622</sys_update_name>
+        <sys_update_version display_value="sys_hub_action_type_definition_a873b0f52f812d103a4154492799b622">2073b0f52f812d103a4154492799b627</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

@@ -15,7 +15,7 @@
         <condition/>
         <description/>
         <execute_function>false</execute_function>
-        <filter_condition table="incident">state=6^x_721645_zowe_endevor_change_packageISNOTEMPTY^EQ<item display_value="Resolved" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="6"/>
+        <filter_condition table="incident">state=3^x_721645_zowe_endevor_change_packageISNOTEMPTY^EQ<item display_value="On Hold" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="3"/>
             <item endquery="false" field="x_721645_zowe_endevor_change_package" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter_condition>
@@ -33,7 +33,7 @@
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 
  try { 
- var r = new sn_ws.RESTMessageV2('x_58872_needit.EndevorREST', 'ExecutePackage');
+ var r = new sn_ws.RESTMessageV2('x_58872_needit.EndevorREST', 'CastPackage');
  r.setStringParameterNoEscape('packageName', 'SNOW');
 
 //override authentication profile 

@@ -45,10 +45,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-02-16 20:59:03</sys_created_on>
         <sys_id>31990d7d2fc12d103a4154492799b695</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-02-16 20:59:03</sys_updated_on>
-        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <sys_updated_on>2023-02-21 17:49:10</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}}}</value>
         <variable display_value="Action Status">a1990d7d2fc12d103a4154492799b657</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -84,10 +84,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-02-16 20:57:46</sys_created_on>
         <sys_id>7649857d2fc12d103a4154492799b628</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-02-17 15:17:09</sys_updated_on>
+        <sys_updated_on>2023-02-21 18:02:28</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7649857d2fc12d103a4154492799b628"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -126,9 +126,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-02-16 20:57:46</sys_created_on>
         <sys_id>0749857d2fc12d103a4154492799b65b</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-02-17 14:52:23</sys_updated_on>
+        <sys_updated_on>2023-02-21 18:02:06</sys_updated_on>
         <value>{}</value>
         <variable display_value="Input Variables">2183a3fa3721030003a08fb77e41f1c2</variable>
     </sys_variable_value>
@@ -168,9 +168,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-02-16 20:57:46</sys_created_on>
         <sys_id>c749857d2fc12d103a4154492799b65b</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-02-17 15:17:09</sys_updated_on>
+        <sys_updated_on>2023-02-21 18:02:28</sys_updated_on>
         <value>#******* Format to access Input Parameters *******
 # To use variable, prefix with '$'. eg. $message
 # Read more https://docs.servicenow.com/?context=CSHelp:IntegrationHub-PowerShell-Step
@@ -184,8 +184,8 @@ echo "CRED": $cred  $PACKAGENAME &gt;&gt; out.txt
 #npm install @zowe/cli 
 #npx zowe plugins install @broadcom/endevor-for-zowe-cli
 #npx zowe config init --user-config --prompt false
-echo "npx zowe endevor cast package $PACKAGENAME -i NDVRWEBS --user mcqth01 --pass archie1 --host mstrsvw.lvn.broadcom.net --port 7080 --prot http" &gt;&gt; out.txt
-npx zowe endevor cast package $PACKAGENAME -i NDVRWEBS --user mcqth01 --pass archie1 --host mstrsvw.lvn.broadcom.net --port 7080 --prot http</value>
+echo "npx zowe endevor cast package $packagename --user mcqth01 --pass archie1 --host mstrsvw.lvn.broadcom.net --port 7080 --prot http -i NDVRWEBS" &gt;&gt; out.txt
+npx zowe endevor cast package $PACKAGENAME --user mcqth01 --pass archie1 --host mstrsvw.lvn.broadcom.net --port 7080 --prot http -i NDVRWEBS</value>
         <variable display_value="Command">c54323fa3721030003a08fb77e41f16e</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_7649857d2fc12d103a4154492799b628^id=7649857d2fc12d103a4154492799b628"/>
@@ -244,9 +244,9 @@ npx zowe endevor cast package $PACKAGENAME -i NDVRWEBS --user mcqth01 --pass arc
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-02-16 20:57:46</sys_created_on>
         <sys_id>8349857d2fc12d103a4154492799b65a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-02-17 14:52:23</sys_updated_on>
+        <sys_updated_on>2023-02-21 18:02:06</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_486f577a3721030003a08fb77e41f1d6</table>
         <value>{"PACKAGENAME":"{{action.pkg}}"}</value>
     </sys_element_mapping>
@@ -721,17 +721,17 @@ npx zowe endevor cast package $PACKAGENAME -i NDVRWEBS --user mcqth01 --pass arc
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="ExecuteZowe">e388853d2fc12d103a4154492799b6fa</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"ac33458e2f816d103a4154492799b685","name":"plan","plan_signature":null}}</plan>
-        <snapshot>31f409022fc16d103a4154492799b6aa</snapshot>
+        <snapshot>df2156572fc121103a4154492799b68b</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-02-17 15:09:36</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ac33458e2f816d103a4154492799b685</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-02-17 15:17:23</sys_updated_on>
+        <sys_updated_on>2023-02-21 18:02:44</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -779,10 +779,10 @@ npx zowe endevor cast package $PACKAGENAME -i NDVRWEBS --user mcqth01 --pass arc
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-02-17 15:09:33</sys_created_on>
         <sys_id>bf23058e2f816d103a4154492799b6e5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-02-17 15:09:33</sys_updated_on>
-        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <sys_updated_on>2023-02-21 17:49:13</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}}}</value>
         <variable display_value="Action Status">ff23058e2f816d103a4154492799b6d8</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -818,10 +818,10 @@ npx zowe endevor cast package $PACKAGENAME -i NDVRWEBS --user mcqth01 --pass arc
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-02-17 15:09:32</sys_created_on>
         <sys_id>ab23058e2f816d103a4154492799b6c4</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-02-17 15:17:20</sys_updated_on>
+        <sys_updated_on>2023-02-21 18:02:41</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ab23058e2f816d103a4154492799b6c4"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -846,9 +846,9 @@ npx zowe endevor cast package $PACKAGENAME -i NDVRWEBS --user mcqth01 --pass arc
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-02-17 15:09:32</sys_created_on>
         <sys_id>7b23058e2f816d103a4154492799b6d4</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-02-17 15:17:20</sys_updated_on>
+        <sys_updated_on>2023-02-21 18:02:41</sys_updated_on>
         <value>#******* Format to access Input Parameters *******
 # To use variable, prefix with '$'. eg. $message
 # Read more https://docs.servicenow.com/?context=CSHelp:IntegrationHub-PowerShell-Step
@@ -862,8 +862,8 @@ echo "CRED": $cred  $PACKAGENAME &gt;&gt; out.txt
 #npm install @zowe/cli 
 #npx zowe plugins install @broadcom/endevor-for-zowe-cli
 #npx zowe config init --user-config --prompt false
-echo "npx zowe endevor cast package $PACKAGENAME -i NDVRWEBS --user mcqth01 --pass archie1 --host mstrsvw.lvn.broadcom.net --port 7080 --prot http" &gt;&gt; out.txt
-npx zowe endevor cast package $PACKAGENAME -i NDVRWEBS --user mcqth01 --pass archie1 --host mstrsvw.lvn.broadcom.net --port 7080 --prot http</value>
+echo "npx zowe endevor cast package $packagename --user mcqth01 --pass archie1 --host mstrsvw.lvn.broadcom.net --port 7080 --prot http -i NDVRWEBS" &gt;&gt; out.txt
+npx zowe endevor cast package $PACKAGENAME --user mcqth01 --pass archie1 --host mstrsvw.lvn.broadcom.net --port 7080 --prot http -i NDVRWEBS</value>
         <variable display_value="Command">c54323fa3721030003a08fb77e41f16e</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -874,9 +874,9 @@ npx zowe endevor cast package $PACKAGENAME -i NDVRWEBS --user mcqth01 --pass arc
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-02-17 15:09:32</sys_created_on>
         <sys_id>a723058e2f816d103a4154492799b6d4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-02-17 15:09:32</sys_updated_on>
+        <sys_updated_on>2023-02-21 18:02:41</sys_updated_on>
         <value>{}</value>
         <variable display_value="Input Variables">2183a3fa3721030003a08fb77e41f1c2</variable>
     </sys_variable_value>
@@ -978,9 +978,9 @@ npx zowe endevor cast package $PACKAGENAME -i NDVRWEBS --user mcqth01 --pass arc
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-02-17 15:09:32</sys_created_on>
         <sys_id>6323058e2f816d103a4154492799b6d3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-02-17 15:09:32</sys_updated_on>
+        <sys_updated_on>2023-02-21 18:02:41</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_486f577a3721030003a08fb77e41f1d6</table>
         <value>{"PACKAGENAME":"{{action.pkg}}"}</value>
     </sys_element_mapping>

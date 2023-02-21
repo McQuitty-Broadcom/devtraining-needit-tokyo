@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
     <sys_rest_message_fn action="INSERT_OR_UPDATE">
-        <authentication_type>inherit_from_parent</authentication_type>
+        <authentication_type>basic</authentication_type>
         <basic_auth_password/>
-        <basic_auth_profile/>
+        <basic_auth_profile display_value="Endevor">bdc3a9422f456d103a4154492799b66a</basic_auth_profile>
         <basic_auth_user/>
         <content/>
         <function_name>Get</function_name>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message">
     <sys_rest_message action="INSERT_OR_UPDATE">
         <access>package_private</access>
-        <authentication_type>no_authentication</authentication_type>
+        <authentication_type>basic</authentication_type>
         <basic_auth_password/>
         <basic_auth_profile display_value="Endevor">bdc3a9422f456d103a4154492799b66a</basic_auth_profile>
         <basic_auth_user/>

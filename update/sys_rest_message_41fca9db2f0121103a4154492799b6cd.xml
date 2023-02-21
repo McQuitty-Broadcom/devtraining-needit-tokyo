@@ -9,7 +9,7 @@
         <name>EndevorREST</name>
         <oauth2_profile/>
         <protocol_name/>
-        <rest_endpoint>http://﻿mstrsvw.lvn.broadcom.net:7080/EndevorService/rest/NDVRWEBS/packages/SNOW/Cast</rest_endpoint>
+        <rest_endpoint>http://﻿mstrsvw.lvn.broadcom.net:7080/EndevorService/rest/NDVRWEBS/packages</rest_endpoint>
         <sys_class_name>sys_rest_message</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-02-21 15:27:41</sys_created_on>
