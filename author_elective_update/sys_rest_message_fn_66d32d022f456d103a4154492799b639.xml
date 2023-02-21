@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="DELETE">
+        <authentication_type>inherit_from_parent</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content/>
+        <function_name>Default GET</function_name>
+        <http_method>get</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>Endevor [ Default GET ]</qualified_name>
+        <rest_endpoint>http://﻿mstrsvw.lvn.broadcom.net:7080/EndevorService/rest/NDVRWEBS/packages/SNOW/Execute﻿</rest_endpoint>
+        <rest_message display_value="Endevor">b493e5422f456d103a4154492799b63d</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-17 17:32:17</sys_created_on>
+        <sys_id>66d32d022f456d103a4154492799b639</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Default GET</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_rest_message_fn_66d32d022f456d103a4154492799b639</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-17 17:32:17</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>44b1111fdbf477409df22f17d49619a8</instance_id>
+        <instance_name>dev81984</instance_name>
+        <name>sys_rest_message_fn_66d32d022f456d103a4154492799b639</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn"><sys_rest_message_fn action="INSERT_OR_UPDATE"><authentication_type>inherit_from_parent</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><content/><function_name>Default GET</function_name><http_method>get</http_method><lock>false</lock><oauth2_profile/><protocol_name/><qualified_name>Endevor [ Default GET ]</qualified_name><rest_endpoint>http://﻿mstrsvw.lvn.broadcom.net:7080/EndevorService/rest/NDVRWEBS/packages/SNOW/Execute﻿</rest_endpoint><rest_message display_value="Endevor">b493e5422f456d103a4154492799b63d</rest_message><sys_class_name>sys_rest_message_fn</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-02-17 17:32:17</sys_created_on><sys_id>66d32d022f456d103a4154492799b639</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Default GET</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_rest_message_fn_66d32d022f456d103a4154492799b639</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-17 17:32:17</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mid_server/><use_mutual_auth>false</use_mutual_auth></sys_rest_message_fn></record_update>]]></payload>
+        <payload_hash>-2026107708</payload_hash>
+        <record_name>Default GET</record_name>
+        <reverted_from/>
+        <source>3a28bba12f8de9103a4154492799b629</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-17 17:32:17</sys_created_on>
+        <sys_id>6ed32d022f456d103a4154492799b63b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>186606f11ce0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-17 17:32:17</sys_updated_on>
+        <type>HTTP Method</type>
+        <update_guid>a6d32d02bc456d10e6f6814ca884f73b</update_guid>
+        <update_guid_history>a6d32d02bc456d10e6f6814ca884f73b:-2026107708</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-17 17:32:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_rest_message_fn">sys_rest_message_fn</sys_db_object>
+        <sys_id>03274b0aceb149588eed477b34f2e240</sys_id>
+        <sys_metadata>66d32d022f456d103a4154492799b639</sys_metadata>
+        <sys_name>Default GET</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="Endevor">b493e5422f456d103a4154492799b63d</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_rest_message_fn_66d32d022f456d103a4154492799b639</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_fn_66d32d022f456d103a4154492799b639">6ed32d022f456d103a4154492799b63b</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

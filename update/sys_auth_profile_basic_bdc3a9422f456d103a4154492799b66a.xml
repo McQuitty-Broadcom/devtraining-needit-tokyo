@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_auth_profile_basic">
+    <sys_auth_profile_basic action="INSERT_OR_UPDATE">
+        <name>Endevor</name>
+        <password>﷞﷟﷒9f4c0abb2f9021103a4154492799b6e6﷬﷔1﷬﷭Xp35Y4Hsrwyj7xrK6MI7MA==stkyEqKwsJMR6dPbQs2nnG6-SV0T5iM=﷮﷯</password>
+        <sys_class_name>sys_auth_profile_basic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-17 17:32:09</sys_created_on>
+        <sys_id>bdc3a9422f456d103a4154492799b66a</sys_id>
+        <sys_name>Endevor</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_auth_profile_basic_bdc3a9422f456d103a4154492799b66a</sys_update_name>
+        <username>MCQTH01</username>
+    </sys_auth_profile_basic>
+</record_update>
