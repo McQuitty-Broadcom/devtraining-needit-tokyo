@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="live_feed=true" db_object_id="5e22be5f2f4521103a4154492799b605" label="Endevor Packages" max_length="40" name="x_58872_needit_endevor_packages" type="collection">
-        <element label="Name" max_length="40" name="name" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element label="Status" max_length="40" name="status" type="string"/>
+        <element label="packageid" mandatory="true" max_length="20" name="packageid" type="string"/>
+        <element label="status" max_length="40" name="status" type="string"/>
     </element>
 </database>

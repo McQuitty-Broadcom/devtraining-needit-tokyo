@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_headers">
+    <sys_rest_message_fn_headers action="DELETE">
+        <name>Content-Type</name>
+        <rest_message_function display_value="CreatePackage">a41e5d1c2f1165103a4154492799b691</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_headers</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-24 16:56:56</sys_created_on>
+        <sys_id>ba4e15102f5165103a4154492799b643</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Content-Type</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_rest_message_fn_headers_ba4e15102f5165103a4154492799b643</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-24 16:56:56</sys_updated_on>
+        <value>multipart/form-data</value>
+    </sys_rest_message_fn_headers>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>44b1111fdbf477409df22f17d49619a8</instance_id>
+        <instance_name>dev81984</instance_name>
+        <name>sys_rest_message_fn_headers_ba4e15102f5165103a4154492799b643</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_headers"><sys_rest_message_fn_headers action="INSERT_OR_UPDATE"><name>Content-Type</name><rest_message_function display_value="CreatePackage">a41e5d1c2f1165103a4154492799b691</rest_message_function><sys_class_name>sys_rest_message_fn_headers</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-02-24 16:56:56</sys_created_on><sys_id>ba4e15102f5165103a4154492799b643</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Content-Type</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_rest_message_fn_headers_ba4e15102f5165103a4154492799b643</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-24 16:56:56</sys_updated_on><value>multipart/form-data</value></sys_rest_message_fn_headers></record_update>]]></payload>
+        <payload_hash>-1253331451</payload_hash>
+        <record_name>Content-Type</record_name>
+        <reverted_from/>
+        <source>3a28bba12f8de9103a4154492799b629</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-24 16:56:56</sys_created_on>
+        <sys_id>51ee99102f5165103a4154492799b697</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>186845b38dd0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-24 16:56:56</sys_updated_on>
+        <type>HTTP Headers</type>
+        <update_guid>99ee99103b51651085ac549570f3b396</update_guid>
+        <update_guid_history>99ee99103b51651085ac549570f3b396:-1253331451</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-24 16:59:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_rest_message_fn_headers">sys_rest_message_fn_headers</sys_db_object>
+        <sys_id>0346876312ec49de8a541c59cfb28b04</sys_id>
+        <sys_metadata>ba4e15102f5165103a4154492799b643</sys_metadata>
+        <sys_name>Content-Type</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="CreatePackage">a41e5d1c2f1165103a4154492799b691</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_rest_message_fn_headers_ba4e15102f5165103a4154492799b643</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_fn_headers_ba4e15102f5165103a4154492799b643">51ee99102f5165103a4154492799b697</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

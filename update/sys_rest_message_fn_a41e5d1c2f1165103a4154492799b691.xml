@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="INSERT_OR_UPDATE">
+        <authentication_type>inherit_from_parent</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content/>
+        <function_name>CreatePackage</function_name>
+        <http_method>post</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>EndevorREST [ CreatePackage ]</qualified_name>
+        <rest_endpoint>http://mstrsvw.lvn.broadcom.net:7080/EndevorService/rest/NDVRWEBS/packages/SNOW123</rest_endpoint>
+        <rest_message display_value="EndevorREST">41fca9db2f0121103a4154492799b6cd</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-24 16:54:15</sys_created_on>
+        <sys_id>a41e5d1c2f1165103a4154492799b691</sys_id>
+        <sys_name>CreatePackage</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_rest_message_fn_a41e5d1c2f1165103a4154492799b691</sys_update_name>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server display_value="midi">3bde9cb82f0129103a4154492799b684</use_mid_server>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+</record_update>

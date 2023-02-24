@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="wf_element_activity">
+    <wf_element_activity action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <attributes/>
+        <base_provider display_value="REST Web Service">8817a25e37222100aa40cc9fbe41f106</base_provider>
+        <category/>
+        <checked_out_by/>
+        <default_height/>
+        <default_width/>
+        <description/>
+        <image>images/heisenberg_icons/workflow_ie8/provider_rest.png</image>
+        <input_meta>{"name":"Input","type":"DATA_OBJECT","properties":[{"name":"pkgName","type":"STRING","mandatory":true}]}</input_meta>
+        <input_process_script/>
+        <input_transform>{"web_service_message":"41fca9db2f0121103a4154492799b6cd","web_service_message_function":"5f0e6d1f2f0121103a4154492799b6a4","web_service_endpoint":"","parameters":"[{\"name\":\"packageName\",\"value\":\"${activityInput.pkgName}\",\"additional_attribute\":\"\"}]","headers":"[]","queryParameters":"[]","midCapabilities":"18409d8007482000dada43c0d1021e8f","use_mid_server":"true","time_out":"10","auth_type":"basic_auth_pick_credentials","credentials":"56568d792fc12d103a4154492799b6d3","protocol_profile":"","oauth_entity_profile":""}</input_transform>
+        <local_variables/>
+        <name>zEndevorRest</name>
+        <output_meta>{"name":"Output","type":"DATA_OBJECT","properties":[{"name":"status_code","type":"INTEGER"},{"name":"header","type":"DATA_OBJECT"},{"name":"body","type":"STRING"},{"name":"error","type":"STRING"},{"name":"output","type":"DATA_OBJECT","properties":[{"name":"returnCode","type":"STRING"},{"name":"reports","type":"DATA_OBJECT","properties":[{"name":"C1MSGS1","type":"STRING"},{"name":"APIMSGS","type":"STRING"}]},{"name":"data","type":"STRING"},{"name":"messages","type":"STRING"},{"name":"reasonCode","type":"STRING"}]}]}</output_meta>
+        <output_process_script/>
+        <output_transform>[{"toLink":"activityOutput.status_code","to":"status_code","toType":"string","toDestination":"activityOutput","sourceLabel":"executionResult.status_code","from":"${executionResult.status_code}","fromSource":"executionResult","type":"Direct","translation":"","description":"","children":[]},{"toLink":"activityOutput.header","to":"header","toType":"string","toDestination":"activityOutput","sourceLabel":"executionResult.header","from":"${executionResult.header}","fromSource":"executionResult","type":"JSON","translation":"$","description":"","children":[]},{"toLink":"activityOutput.body","to":"body","toType":"string","toDestination":"activityOutput","sourceLabel":"executionResult.body","from":"${executionResult.body}","fromSource":"executionResult","type":"Direct","translation":"","description":"","children":[]},{"toLink":"activityOutput.error","to":"error","toType":"string","toDestination":"activityOutput","sourceLabel":"executionResult.error","from":"${executionResult.error}","fromSource":"executionResult","type":"Direct","translation":"","description":"","children":[]},{"toLink":"activityOutput.output","to":"output","toType":"string","toDestination":"activityOutput","sourceLabel":"executionResult.body","from":"${executionResult.body}","fromSource":"executionResult","type":"JSON","translation":"$","description":"","children":[]}]</output_transform>
+        <processing_script/>
+        <sample_payloads>{}</sample_payloads>
+        <short_description/>
+        <style/>
+        <sys_class_name>wf_element_activity</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-22 19:22:18</sys_created_on>
+        <sys_id>7bece3a32f4961103a4154492799b6df</sys_id>
+        <sys_name>zEndevorRest</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>wf_element_activity_7bece3a32f4961103a4154492799b6df</sys_update_name>
+        <version_container_id>97fcab632f4961103a4154492799b6ce</version_container_id>
+    </wf_element_activity>
+    <sys_translated_text action="delete_multiple" query="documentkey=7bece3a32f4961103a4154492799b6df"/>
+    <wf_versionable action="INSERT_OR_UPDATE">
+        <checked_out/>
+        <checked_out_by/>
+        <published>true</published>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-22 19:22:19</sys_created_on>
+        <sys_id>5ffcab632f4961103a4154492799b6cf</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-22 19:25:38</sys_updated_on>
+        <valid_from>2023-02-22 19:25:38</valid_from>
+        <valid_to/>
+        <version>1</version>
+        <version_container_id>97fcab632f4961103a4154492799b6ce</version_container_id>
+        <wf_element_definition display_value="zEndevorRest">7bece3a32f4961103a4154492799b6df</wf_element_definition>
+    </wf_versionable>
+</record_update>

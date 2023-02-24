@@ -11,7 +11,7 @@
         <oauth2_profile/>
         <protocol_name/>
         <qualified_name>EndevorREST [ ResetPackage ]</qualified_name>
-        <rest_endpoint>http://﻿mstrsvw.lvn.broadcom.net:7080/EndevorService/rest/NDVRWEBS/packages/SNOW/Reset</rest_endpoint>
+        <rest_endpoint>http://mstrsvw.lvn.broadcom.net:7080/EndevorService/rest/NDVRWEBS/packages/SNOW/Reset</rest_endpoint>
         <rest_message display_value="EndevorREST">41fca9db2f0121103a4154492799b6cd</rest_message>
         <sys_class_name>sys_rest_message_fn</sys_class_name>
         <sys_created_by>admin</sys_created_by>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDa33cd4c43adda1106ee414fbd062d785</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>6ead8e780f603200cd674f8ce1050ed1</scope_name>
+        <serialized_content>{"FlowDesigner:FDa33cd4c43adda1106ee414fbd062d785":{"pkgname":"String","pkgname.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"pkgname\",\"mandatory\":\"true\",\"order\":\"1\",\"max_length\":\"0\"}"},"state":"String","state.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"state\",\"mandatory\":\"true\",\"order\":\"2\",\"max_length\":\"0\"}"}},"FlowDesigner:FDa33cd4c43adda1106ee414fbd062d785.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"pkgrecord\",\"mandatory\":\"false\",\"uiUniqueId\":\"af0fc81c-21b0-4d1a-b589-aa876a4b47b1\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDa33cd4c43adda1106ee414fbd062d785\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"11\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-23 17:27:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>673cd4c42fdda1103a4154492799b685</sys_id>
+        <sys_name>FDa33cd4c43adda1106ee414fbd062d785</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_complex_object_673cd4c42fdda1103a4154492799b685</sys_update_name>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

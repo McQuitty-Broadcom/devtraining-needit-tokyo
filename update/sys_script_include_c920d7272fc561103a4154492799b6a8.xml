@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_58872_needit.getJSONObjectsViaRest</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>getJSONObjectsViaRest</name>
+        <script><![CDATA[function getJSONObjectsViaRest(endpoint, objects, api, request, outer_keyname) {
+    var pagedR = new sn_ws.RESTMessageV2(api, request);
+    if (endpoint !== null) {
+        pagedR.setEndpoint(endpoint);
+    }
+    var pagedResponse = pagedR.execute();
+    var pagedResponseBody = pagedResponse.getBody();
+    var pagedhttpStatus = pagedResponse.getStatusCode();
+    var pagedObj = JSON.parse(pagedResponseBody);
+    objects = objects.concat(pagedObj[outer_keyname]);
+    if (pagedObj["@odata.nextLink"]) {
+        objects = getJSONObjectsViaRest(pagedObj["@odata.nextLink"], objects, api, request, outer_keyname);
+    }
+    return objects;
+}]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-22 17:17:53</sys_created_on>
+        <sys_id>c920d7272fc561103a4154492799b6a8</sys_id>
+        <sys_name>getJSONObjectsViaRest</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_include_c920d7272fc561103a4154492799b6a8</sys_update_name>
+    </sys_script_include>
+</record_update>
